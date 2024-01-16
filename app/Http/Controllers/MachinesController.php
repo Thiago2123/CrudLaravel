@@ -20,7 +20,7 @@
         }
         public function show(Machine $maquina)
         {
-            //dd($machine);
+            // dd($maquina);
             return view('machines.show')->with('maquina', $maquina);
         }
 
